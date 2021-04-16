@@ -46,10 +46,6 @@ exports.up = function(knex) {
     table.integer("quantity").notNullable()
   })
   
-  
-  
-
-
 }
 
 exports.down = function(knex) {
